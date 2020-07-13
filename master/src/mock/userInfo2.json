@@ -1,0 +1,56 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "title": "权限管理",
+            "icon": "el-icon-monitor",
+            "module": "app-auth",
+            "defaultRegister": true,
+            "devEntry": "//localhost:7073",
+            "depEntry": "http://ui.mfe.wlui.com.cn/",
+            "routerBase": "/user",
+            "data": [
+                {
+                    "id": "1-1",
+                    "title": "用户认证",
+                    "name": "user",
+                    "url": "/user"
+                },
+                {
+                    "id": "1-2",
+                    "title": "密码修改",
+                    "name": "password",
+                    "url": "/user/password"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "角色管理",
+            "icon": "el-icon-date",
+            "module": "app-role",
+            "defaultRegister": false,
+            "devEntry": "//localhost:7074",
+            "depEntry": "http://blog.mfe.wlui.com.cn",
+            "routerBase": "/front",
+            "data": [
+                {
+                    "id": "2-1",
+                    "title": "前端",
+                    "name": "front",
+                    "url": "/front"
+                },
+                {
+                    "id": "2-2",
+                    "title": "后端",
+                    "name": "back",
+                    "url": "/front/back"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "msg": "登录成功",
+        "status": 200
+    }
+}
