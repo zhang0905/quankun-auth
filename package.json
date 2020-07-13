@@ -1,0 +1,28 @@
+{
+  "name": "vue-qiankun-auth",
+  "version": "1.0.0",
+  "description": "微前端实战",
+  "main": "index.js",
+  "scripts": {
+    "install:app-auth": "cd app-auth && npm install",
+    "install:app-role": "cd app-role && npm install",
+    "install:master": "cd master && npm install",
+    "install-all": "npm-run-all install:*",
+    "start:app-auth": "cd app-auth && npm run serve ",
+    "start:app-role": "cd app-role && npm run serve ",
+    "start:master": "cd master && npm run serve",
+    "start-all": "npm-run-all --parallel start:*",
+    "build:app-auth": "cd app-auth && npm run build",
+    "build:app-role": "cd app-role && npm run build",
+    "build:master": "cd master && npm run build",
+    "build-all": "npm-run-all --parallel build:*"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "npm-run-all": "^4.1.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "author": "",
+  "license": "ISC"
+}
